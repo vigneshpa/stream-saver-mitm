@@ -1,0 +1,13 @@
+{
+  "name": "stream-saver-mitm",
+  "version": "1.0.0",
+  "description": "stream saver mitm",
+  "scripts": {
+    "build": "cp node_modules/streamsaver/mitm.html ./index.html && cp node_modules/streamsaver/sw.js ./sw.js"
+  },
+  "author": "vigneshpa",
+  "license": "ISC",
+  "dependencies": {
+    "streamsaver": "^2.0.5"
+  }
+}
